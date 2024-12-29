@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { FocusCards } from "./ui/ProjectParallex";
+import { FocusCards } from "./ui/Projectparallex";
 
 const typingEffect = {
   hidden: { opacity: 0 },
