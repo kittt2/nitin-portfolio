@@ -3,17 +3,21 @@ import {
   Drawer,
   DrawerClose,
   DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
 } from "./drawer";
 import { Button } from "./button";
 import { motion } from "framer-motion";
-import { IconBrandBootstrap, IconBrandCss3, IconBrandJavascript, IconBrandRedux, IconHtml, IconX } from "@tabler/icons-react";
 import {
-
+  IconBrandBootstrap,
+  IconBrandCss3,
+  IconBrandJavascript,
+  IconBrandRedux,
+  IconHtml,
+  IconX,
+} from "@tabler/icons-react";
+import {
   IconBrandReact,
   IconBrandNodejs,
   IconBrandMongodb,
@@ -26,12 +30,11 @@ const techIcons = {
   Express: "ex",
   MongoDB: <IconBrandMongodb />,
   "Tailwind css": <IconBrandTailwind />,
-  HTML: <IconHtml/>,
+  HTML: <IconHtml />,
   CSS: <IconBrandCss3 />,
   JavaScript: <IconBrandJavascript />,
-  bootstrap: <IconBrandBootstrap/>,
-  "Redux toolkit":<IconBrandRedux/>,
-  
+  bootstrap: <IconBrandBootstrap />,
+  "Redux toolkit": <IconBrandRedux />,
 };
 
 const Card = memo(({ card, index, hovered, setHovered }) => {
@@ -67,7 +70,10 @@ const Card = memo(({ card, index, hovered, setHovered }) => {
             >
               details
             </DrawerTrigger>
-            <DrawerContent  inert={!isDrawerOpen ? "true" : undefined}  className="p-3 xs:px-20  sm:px-14  md:h-[80vh] bg-black/30 backdrop-blur-md backdrop-filter shadow-lg">
+            <DrawerContent
+              inert={!isDrawerOpen ? "true" : undefined}
+              className="p-3 xs:px-20  sm:px-14  md:h-[80vh] bg-black/30 backdrop-blur-md backdrop-filter shadow-lg"
+            >
               <div>
                 <DrawerHeader className="flex justify-between xs:px-8 md:px-8 md:pb-8">
                   <DrawerTitle className="text-2xl md:text-5xl text-white font-semibold capitalize">
@@ -92,10 +98,12 @@ const Card = memo(({ card, index, hovered, setHovered }) => {
                     <h3 className="text-sm md:text-xl text-white mb-2 font-semibold ">
                       Technologies Used:
                     </h3>
-                    <ul className="list-disc flex list-inside text-gray-400 flex-wrap " >
+                    <ul className="list-disc flex list-inside text-gray-400 flex-wrap ">
                       {card.technologies?.map((tech) => (
-                        <li key={tech} className="flex text-xs items-center pr-2 md:mr-2 mb-2 md:font-semibold">
-                         
+                        <li
+                          key={tech}
+                          className="flex text-xs items-center pr-2 md:mr-2 mb-2 md:font-semibold"
+                        >
                           {techIcons[tech]} <span className="ml-2">{tech}</span>
                         </li>
                       ))}

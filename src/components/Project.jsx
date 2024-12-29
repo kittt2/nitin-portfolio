@@ -103,11 +103,13 @@ export function Project({ y, scale, blurAmount }) {
       className=" h-full  w-screen  bg-black rounded-t-[16rem]  pt-10 md:pt-2  "
     >
       <div className="py-20 md:py-20 ">
-        <h1 style={{ fontFamily: "Montserrat, sans-serif" }}  className="text-white text-center capitalize text-4xl font-semibold md:text-9xl ">
+        <h1
+          style={{ fontFamily: "Montserrat, sans-serif" }}
+          className="text-white text-center capitalize text-4xl font-semibold md:text-9xl "
+        >
           project
         </h1>
         <motion.p
-        
           className="text-gray-500  text-sm sm:text-lg  w-screen text-center capitalize font-medium pt-8"
           initial="hidden"
           whileInView="visible"
