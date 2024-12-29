@@ -90,7 +90,7 @@ export function Project({ y, scale, blurAmount }) {
         "ShadCn Ui",
         "Framer motion",
       ],
-      link: "https",
+      link: "https://nitin-saini.vercel.app/",
     },
   ];
 
