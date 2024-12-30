@@ -4,9 +4,7 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="h-[200vh] w-screen">
-     
-        
+    <div className="h-[200vh]  w-screen ">  
         <Layout />
       
     </div>

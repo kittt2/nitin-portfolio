@@ -12,11 +12,9 @@ import {
   IconBrandGit,
   IconBrandFigma,
 } from "@tabler/icons-react";
-import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 function Skills({ y, scale, rotate }) {
-  const { scrollYProgress } = useScroll();
   
 
   return (

@@ -20,6 +20,7 @@ const Layout = () => {
   });
 
   const heroScale = useTransform(scrollYProgress, [0.2, 0.3], [1, 0]);
+
   const skillScale = useTransform(scrollYProgress, [0.4, 0.6], [0, 1]);
   const skillrotate = useTransform(scrollYProgress, [0.5, 0.6], [-50, 0]);
   const heroBlur = useTransform(
@@ -31,7 +32,7 @@ const Layout = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 800); 
+    }, 800);
 
     return () => clearTimeout(timer);
   }, []);
@@ -54,7 +55,7 @@ const Layout = () => {
           exit={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          <div ref={containerRef} className="w-screen">
+          <div ref={containerRef} className="w-screen ">
             <MobileNavBar />
             <Hero scale={heroScale} blurAmount={heroBlur} />
             <FloatingDockDemo />

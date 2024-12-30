@@ -2,9 +2,8 @@ import React from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { AnimatedTestimonials } from "./ui/AnimatedAbout"; // Adjust the path as needed
 
-const About = ({ y, scale }) => {
-  const { scrollYProgress } = useScroll();
-  const opacity = useTransform(scrollYProgress, [0.1, 0.4], [2, 0]);
+const About = () => {
+  
   const testimonials = [
     {
       quote:
@@ -48,12 +47,15 @@ const About = ({ y, scale }) => {
   return (
     <>
       <motion.div
-        style={{ y, scale }}
+
         id="about"
-        className="relative h-screen w-screen mb-40 sm:mb-60 md:mb-20 "
+        className=" h-screen  w-screen mb-40 sm:mb-60 md:mb-20 "
       >
-        <div className="text-center pt-20">
-          <h1 className="text-4xl  text-white md:text-9xl uppercase py-6 ">
+        <div className="text-center pt-6 xs:pt-20">
+          <h1
+            style={{ fontFamily: "Montserrat, sans-serif", lineHeight: 1.2 }}
+            className="text-4xl font-semibold  text-white md:text-9xl  capitalize py-6 "
+          >
             about me
           </h1>
         </div>

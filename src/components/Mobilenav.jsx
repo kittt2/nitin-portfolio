@@ -29,9 +29,14 @@ const MobileNavBar = () => {
 
   return (
     <div>
-      <div className="fixed top-0 left-0 right-0 z-50 bg-opacity-60 bg-neutral-900 backdrop-filter backdrop-blur-lg shadow-lg p-2 md:hidden">
+      <div className="fixed top-0 left-0 right-0 z-50 bg-opacity-60 bg-neutral-900 backdrop-filter backdrop-blur-lg shadow-lg p-2   md:hidden">
         <div className="flex justify-between items-center px-4">
-          <span className="font-bold text-gray-200">Menu</span>
+          <span className="font-bold text-gray-200">
+          <Avatar className=" h-auto">
+            <AvatarImage src="photo.jpg" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
+          </span>
           <button onClick={() => setOpen(!open)} className="text-gray-200">
             <IconMenu className="h-6 w-6" />
           </button>
@@ -42,8 +47,8 @@ const MobileNavBar = () => {
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="flex flex-col items-center gap-5 py-4"
-            >
+              className="flex flex-col items-center  py-4 h-[50vh] "
+            ><div className="flex flex-col gap-5 " >
               {links.map((link) => (
                 <a
                   key={link.title}
@@ -54,6 +59,7 @@ const MobileNavBar = () => {
                   <span>{link.title}</span>
                 </a>
               ))}
+              </div>
             </motion.div>
           )}
         </AnimatePresence>

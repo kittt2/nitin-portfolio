@@ -20,7 +20,7 @@ const letterAnimation = {
   },
 };
 
-export function Project({ y, scale, blurAmount }) {
+export function Project() {
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0.55, 0.6], [0, 1]);
   const cards = [
@@ -93,12 +93,10 @@ export function Project({ y, scale, blurAmount }) {
       link: "https://nitin-saini.vercel.app/",
     },
   ];
-
-  const line =
-    "Each project: A roller coaster of debugging, building, growth, and continuous learning.🚗✈️";
+  const heading="project"
+  const line ="Every project is a mix of learning, growth, and 'oops' moments. 📈😁"
   return (
     <motion.div
-      style={{ y, scale, filter: blurAmount }}
       id="project"
       className=" h-full  w-screen  bg-black rounded-t-[16rem]  pt-10 md:pt-2  "
     >
@@ -110,7 +108,7 @@ export function Project({ y, scale, blurAmount }) {
           project
         </h1>
         <motion.p
-          className="text-gray-500  text-sm sm:text-lg  w-screen text-center capitalize font-medium pt-8"
+          className="text-gray-500 text-center  text-sm sm:text-lg  w-screen text-center capitalize font-medium pt-8"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}

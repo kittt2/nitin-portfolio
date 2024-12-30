@@ -27,7 +27,7 @@ export const Hero = ({ y, scale, blurAmount }) => {
   return (
     <motion.div
       style={{ y, scale, filter: blurAmount }}
-      className="w-screen h-screen rounded-b-[14rem] bg-black flex flex-col items-center justify-center"
+      className="w-screen h-[90vh] xs:h-screen rounded-b-[14rem] bg-black flex flex-col items-center justify-center"
     >
       <div className="px-2 w-full text-center flex flex-col justify-center items-center">
         <motion.h1

@@ -68,7 +68,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                   <img
                     src={testimonial.src}
                     alt={testimonial.name}
-                    className="h-full w-full rounded-3xl object-cover object-center"
+                    className="h-full w-full rounded-3xl object-cover object-center "
                   />
                 </motion.div>
               ))}
