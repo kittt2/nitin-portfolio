@@ -78,7 +78,7 @@ const MobileNavBar = () => {
           Nitin
         </motion.span>
         <span className="flex items-center gap-3 text-gray-200">
-          nitinofficialacc1@email.com
+          nitinofficialacc1@gmail.com
           <Avatar className="h-2 w-4 md:h-10 md:w-10 ">
             <AvatarImage src="photo.jpg" />
             <AvatarFallback>CN</AvatarFallback>

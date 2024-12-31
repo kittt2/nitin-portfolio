@@ -45,7 +45,7 @@ function Contact() {
         >
           <IconMail className="w-8 h-8" />
           <span className="text-center text-lg font-medium text-gray-300 ">
-            nitinofficialacc1@example.com
+            nitinofficialacc1@gmail.com
           </span>
         </a>
       </div>
