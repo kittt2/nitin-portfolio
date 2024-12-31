@@ -84,15 +84,15 @@ const Card = memo(({ card, index, hovered, setHovered }) => {
                   </DrawerClose>
                 </DrawerHeader>
                 <div className="flex flex-col px-2 sm:px-8 gap-2  md:gap-6 md:flex-row  md:space-y-0 md:space-x-4">
-                  <div className="h-40 sm:h-60   md:h-80 w-full md:w-1/2 lg:w-1/2 xl:w-1/3 ">
+                  <div className="h-40 sm:h-64 md:h-80 w-full md:w-1/2 lg:w-1/2 xl:w-1/3 ">
                     <img
                       src={card.src}
-                      className="w-full h-full rounded-xl object-fill"
+                      className="w-full h-full border-2 border-gray-900 rounded-xl object-fill"
                       alt="project images"
                     />
                   </div>
                   <div className="w-full md:w-1/2 ">
-                    <h2 className="text-sm xs:text-xs md:text-sm lg:text-[1rem] whitespace-pre-line text-justify font-medium   text-gray-400 mb-4">
+                    <h2 className="text-xs sm:text-sm  md:text-sm lg:text-lg   whitespace-pre-line text-justify font-medium   text-gray-400 mb-4">
                       {card.description}
                     </h2>
                     <h3 className="text-sm md:text-xl text-white mb-2 font-semibold ">
@@ -108,11 +108,12 @@ const Card = memo(({ card, index, hovered, setHovered }) => {
                         </li>
                       ))}
                     </ul>
+                    <p className="text-white  between-770-807:leading-3 between-770-807:text-[10px] capitalize py-2 md:py-1 md:text-sm text-sm md:text-justify  lg:leading-5">{card?.note}</p>
                     <a
                       href={card.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-gray-800 hover:bg-slate-900 font-semibold text-white  md:text-sm px-4 py-2 md:mt-4 inline-block rounded-md border border-black text-center"
+                      className="bg-gray-800 hover:bg-slate-900 font-semibold text-white  md:text-sm px-4 py-2 lg:mt-4 inline-block rounded-md border border-black text-center"
                     >
                       Project Live link
                     </a>

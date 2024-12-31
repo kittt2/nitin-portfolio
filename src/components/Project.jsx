@@ -41,8 +41,8 @@ export function Project() {
       link: "https://stream-5a835.web.app/",
     },
     {
-      title: "ecommerce(mern)",
-      src: "project2.png",
+      title: "Ecommerce(mern)",
+      src: "emart.png",
       description:
         "This is a fully functional e-commerce site equipped with features like search, categories, an admin panel, CRUD operations on products, order status tracking, and more. Additionally, it includes database login and registration functionality to enhance user security and experience.",
       technologies: [
@@ -53,7 +53,8 @@ export function Project() {
         "Node.js",
         "bootstrap",
       ],
-      link: "https://mern-project-frontend-one.vercel.app/",
+      link:"https://eccomerce-platfom.onrender.com/",
+      note:"If you find delay in loading page on first time its due to render platform where my project is host. i am using free plan"
     },
     {
       title: "ecommerce(Vanilla JS)",

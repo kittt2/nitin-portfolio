@@ -10,21 +10,21 @@ const About = () => {
         "I'm a frontend developer  based in Noida, India. I love development and enjoy creating websites. My passion lies in continuous learning and improving my craft.",
       name: "Hello! I'm Nitin Saini",
       designation: "Frontend Developer",
-      src: "c3.jpg",
+      src: "photo.jpg",
     },
     {
       quote:
         "I earned my BCA (Bachelor of Computer Applications)  from S.G.T.B.I.M.I.T, affiliated with Guru Gobind Singh Indraprastha University.",
       name: "Education",
       designation: "From Books to Bugs: The Journey of a Code Warrior 🪖",
-      src: "front.jpg",
+      src: "4.jpg",
       time: "2021-july 2024",
     },
     {
       quote: "Full Stack Intern at Allsoft Solutions, New Delhi",
       name: "Experince",
       designation: "Code, coffee, repeat – sleep is optional.🫠",
-      src: "4.jpg",
+      src: "front.jpg",
       time: "Aug 2023- Sep 2023",
     },
     {
@@ -33,7 +33,7 @@ const About = () => {
       name: "Interests & Learning",
       designation:
         "Coding by day, debugging dreams by night – awesome, right?😁",
-      src: "photo.jpg",
+      src: "c3.jpg",
     },
     {
       quote:
