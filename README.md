@@ -34,4 +34,8 @@ Check out the live site here: [My Portfolio](https://nitin-saini.vercel.app/)
     ```bash
     npm install
 3. run server
-   ```bash npm run dev
+   ```bash
+    npm run dev
+##Usage
+
+Explore the portfolio to learn more about my projects and skills. You can navigate through different sections to see detailed information about each project.
