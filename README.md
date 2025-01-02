@@ -21,10 +21,17 @@ Welcome to my personal portfolio! This project showcases my skills and projects 
 
 ## Live Site
 
-Check out the live site here: [My Portfolio](https://your-portfolio-link.com)
+Check out the live site here: [My Portfolio](https://nitin-saini.vercel.app/)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/kittt2/nitin-portfolio.git
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+3. run server
+   ```bash npm run dev
