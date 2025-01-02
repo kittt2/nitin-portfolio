@@ -39,13 +39,13 @@ function Contact() {
 
       <div className="mt-8 flex text-center justify-center">
         <a
-          href="mailto:nitinofficialacc1@example.com"
+          href="mailto:nitinsainiformal@example.com"
           className="flex justify-center items-center space-x-2 text-gray-400 hover:text-white"
           aria-label="Email"
         >
           <IconMail className="w-8 h-8" />
           <span className="text-center text-lg font-medium text-gray-300 ">
-            nitinofficialacc1@gmail.com
+            nitinsainiformal@gmail.com
           </span>
         </a>
       </div>
