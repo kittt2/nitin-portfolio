@@ -27,7 +27,7 @@ export function FloatingDockDemo() {
     {
       title: "resume",
       icon: <IconFileDownload style={{ height: "100%", width: "100%", color: "white" }} />,
-      href: "https://drive.google.com/file/d/1E5KO8_F8YcKqyv4M3QXQMgJDTq-O9Pnv/view?usp=sharing",
+      href: "https://drive.google.com/file/d/19zyeAo6nP2BM6HFXhhn4_q12UNJ79qgi/view?usp=sharing",
     },
     {
       title: "Linkden",
