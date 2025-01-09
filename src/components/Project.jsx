@@ -71,16 +71,9 @@ export function Project() {
       ],
       link: "https://kostyle-rnaf.vercel.app/",
     },
+    
     {
-      title: "Portfolio(1)",
-      src: "project4.png",
-      description:
-        "This is a React-based portfolio project featuring both dark and light themes. The project includes a form that connects to a database for seamless data handling. Additionally, animations are implemented using Framer Motion to enhance the visual appeal and interactivity of the portfolio.",
-      technologies: ["React", "HTML", " CSS", "Node.js", "express"],
-      link: "https://nitinsaini.vercel.app/",
-    },
-    {
-      title: "Portfolio-2",
+      title: "Portfolio(current)",
       src: "project5.png",
       description:
         "This portfolio project highlights my skills and achievements using ShadCN UI, Accentery UI, Tailwind CSS, and React. The design is both sleek and responsive, ensuring a seamless user experience. Animations created with Framer Motion add a dynamic and engaging touch to the interface.",
@@ -92,6 +85,14 @@ export function Project() {
         "Framer motion",
       ],
       link: "https://nitin-saini.vercel.app/",
+    },
+    {
+      title: "Portfolio(old)",
+      src: "project4.png",
+      description:
+        "This is a React-based portfolio project featuring both dark and light themes. The project includes a form that connects to a database for seamless data handling. Additionally, animations are implemented using Framer Motion to enhance the visual appeal and interactivity of the portfolio.",
+      technologies: ["React", "HTML", " CSS", "Node.js", "express"],
+      link: "https://nitinsaini.vercel.app/",
     },
   ];
   const heading="project"

@@ -13,7 +13,7 @@ const AnimatedText = () => {
       <motion.h1
         initial={{ scale: 0.5 }}
         animate={{ scale: 1 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
+        transition={{ duration: 1, ease: "easeOut" }}
         className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold"
         style={{ display: 'flex', alignItems: 'center' }}
       >
