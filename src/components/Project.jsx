@@ -27,8 +27,8 @@ export function Project() {
       {
       title: "MockAI",
       src: "ai.png",
-      description:
-        "This is a trailer or video streaming platform I created using the YouTube API and TMDB API. It features robust functionalities such as search, adding movies to a watchlist, and authentication via email and Google. Additionally, it offers much more to enhance user experience.",
+      description:"MockAI is an AI-driven platform that lets users practice interviews in real time and get instant, personalized feedback. It’s perfect for sharpening technical skills and building confidence through realistic mock sessions.
+,
       technologies: [
         "HTML",
         "Tailwind css",
