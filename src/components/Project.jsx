@@ -24,6 +24,22 @@ export function Project() {
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0.55, 0.6], [0, 1]);
   const cards = [
+      {
+      title: "MockAI",
+      src: "ai.png",
+      description:
+        "This is a trailer or video streaming platform I created using the YouTube API and TMDB API. It features robust functionalities such as search, adding movies to a watchlist, and authentication via email and Google. Additionally, it offers much more to enhance user experience.",
+      technologies: [
+        "HTML",
+        "Tailwind css",
+        "React",
+        "FIREBASE",
+        "vapi Api",
+        "Gen AI",
+        "shadCn",
+      ],
+      link: "https://interview-e5d3a.web.app/",
+    },
     {
       title: "Stream platform",
       src: "streamcover.png",

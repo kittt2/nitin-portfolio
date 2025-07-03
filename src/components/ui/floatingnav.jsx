@@ -27,7 +27,7 @@ const FloatingDockDesktop = memo(({ items, className }) => {
     <motion.div
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className={`mx-auto hidden md:flex h-16 gap-4 items-end rounded-2xl bg-opacity-60 bg-neutral-900 backdrop-filter backdrop-blur-lg px-4 pb-3 ${className}`}
+      className={`border-gray-900 border-[0.06rem]  mx-auto hidden md:flex h-16 gap-4 items-end rounded-2xl bg-opacity-60 bg-neutral-900 backdrop-filter backdrop-blur-lg px-4 pb-3 ${className}`}
     >
       {items.map((item) => (
         <MemoizedIconContainer mouseX={mouseX} key={item.title} {...item} />
