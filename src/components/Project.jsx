@@ -27,8 +27,7 @@ export function Project() {
       {
       title: "MockAI",
       src: "ai.png",
-      description:"MockAI is an AI-driven platform that lets users practice interviews in real time and get instant, personalized feedback. It’s perfect for sharpening technical skills and building confidence through realistic mock sessions.
-,
+      description:"MockAI is an AI-driven platform that lets users practice interviews in real time and get instant, personalized feedback. It’s perfect for sharpening technical skills and building confidence through realistic mock sessions.",
       technologies: [
         "HTML",
         "Tailwind css",
