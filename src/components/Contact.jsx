@@ -52,7 +52,7 @@ function Contact() {
 
       <div className="mt-8">
         <a
-          href="https://drive.google.com/file/d/1E5KO8_F8YcKqyv4M3QXQMgJDTq-O9Pnv/view?usp=sharing"
+          href="https://drive.google.com/file/d/1NNEP4NQtgqNhWAjIZezBlg9J3pAELLJF/view?usp=sharing"
           download
           className="inline-block rounded-2xl bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg border border-gray-200 hover:bg-opacity-20 text-white font-bold py-2 px-4"
         >
