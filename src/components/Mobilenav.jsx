@@ -35,7 +35,7 @@ const MobileNavBar = () => {
     {
       title: "Resume",
       icon: <IconFileDownload />,
-      href: "https://drive.google.com/file/d/19zyeAo6nP2BM6HFXhhn4_q12UNJ79qgi/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1NNEP4NQtgqNhWAjIZezBlg9J3pAELLJF/view?usp=sharing",
     },
   ];
 
