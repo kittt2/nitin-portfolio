@@ -28,7 +28,7 @@ function Skills({ y, scale, rotate }) {
         rotate,
       }}
       transition={{ duration: 0.6, delay: 1, ease: "linear" }}
-      className="h-full  w-screen text-center bg-[rgb(226,226,226)] p-8 pb-16"
+      className="h-full  w-screen text-center bg-[rgb(226,226,226)] p-8 pb-16 lg:pb-28 "
     >
       <h1 className="text-black pb-4 pt-20 text-4xl sm:text-6xl md:text-8xl lg:text-10xl capitalize font-bold">
         Skills

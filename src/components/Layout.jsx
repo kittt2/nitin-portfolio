@@ -10,6 +10,7 @@ import { Project } from "./Project";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Fotter";
+import TimelineDemo from "./Timeline";
 
 const Layout = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -21,8 +22,11 @@ const Layout = () => {
 
   const heroScale = useTransform(scrollYProgress, [0.2, 0.3], [1, 0]);
 
-  const skillScale = useTransform(scrollYProgress, [0.4, 0.6], [0, 1]);
-  const skillrotate = useTransform(scrollYProgress, [0.5, 0.6], [-50, 0]);
+  const skillScale = useTransform(scrollYProgress, [0.1, 0.3], [0, 1]);
+  const skillrotate = useTransform(scrollYProgress, [0.1, 0.3], [-20, 0]);
+  
+  const expScale = useTransform(scrollYProgress, [0.2, 0.4], [0, 1]);
+  const exprotate = useTransform(scrollYProgress, [0.3, 0.4], [-30, 0]);
   const heroBlur = useTransform(
     scrollYProgress,
     [0.2, 0.3],
@@ -59,9 +63,12 @@ const Layout = () => {
             <MobileNavBar />
             <Hero scale={heroScale} blurAmount={heroBlur} />
             <FloatingDockDemo />
+            
             <About />
-            <Project />
             <Skills scale={skillScale} rotate={skillrotate} />
+
+            <TimelineDemo scale={expScale} rotate={exprotate} />
+            <Project />
             <Contact />
             <Footer />
           </div>
